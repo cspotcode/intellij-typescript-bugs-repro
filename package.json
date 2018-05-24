@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "",
+  "version": "",
+  "dependencies": {
+    "typescript": "^2.8.3"
+  }
+}
