@@ -30,3 +30,8 @@ var b = { // <-- highlight b and run Webstorm's "Expression Type" command.  The 
  * TypeScript's language service understands this, but WebStorm does not.
  */
 var c;
+
+/**
+ * @type {AmbientInterface}
+ */
+var intentionalTypeError = 123; // <-- intentional type error to prove that Typescript is checking this file.
