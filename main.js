@@ -20,7 +20,10 @@ var a = { // <-- highlight b and invoke Webstorm's "Expression Type" command.  T
 var b = { // <-- highlight b and run Webstorm's "Expression Type" command.  The type shown is incorrect because
           //     Webstorm can't parse our @type annotation.
     foo: true,
-    bar: true
+    bar: true,
+    // <-- place cursor here and press Ctrl+Space to display completion options.  "baz" should appear in the dropdown,
+    //     but Webstorm does not understand this nor display the correct option.
+    //     Alternative IDEs using Typescript's language service correctly display "baz"
 };
 
 /**
