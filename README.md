@@ -8,7 +8,7 @@ To verify that TypeScript supports and validates all of the syntax used in this 
     npm install
     ./node_modules/.bin/tsc -p .
 
-tsconfig has ``"allowJs"` and ``"checkJs"` enabled.  This project uses TypeScript types within JSDoc annotations.
-Continuous integration validates our code using `tsc -p .` to find and reject errors in our ``.js`.  Thus it is necessary for the editor to
+tsconfig has `"allowJs"` and `"checkJs"` enabled.  This project uses TypeScript types within JSDoc annotations.
+Continuous integration validates our code using `tsc -p .` to find and reject errors in our `.js`.  Thus it is necessary for the editor to
 support the exact same set of type syntax features.  Ideally we should be able to disable non-TypeScript syntax, since
 for our purposes, it is invalid and will be rejected by continuous integration.
